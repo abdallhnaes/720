@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.kafrdrian.derby"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.kafrdrian.derby"
+        minSdk 23
+        targetSdk 35
+        versionCode 10
+        versionName "10.0"
+    }
+}
